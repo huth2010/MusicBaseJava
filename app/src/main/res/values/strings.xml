@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Music Basic Java</string>
+
+    <string name="splash_text">Highly committed to quality products &amp; excellent services</string>
+    <string name="tincoder">TinCoder</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_all_songs">All Songs</string>
+    <string name="menu_featured_songs">Featured Songs</string>
+    <string name="menu_popular_songs">Popular Songs</string>
+    <string name="menu_new_songs">New Songs</string>
+    <string name="menu_feedback">Feedback</string>
+    <string name="menu_contact">Contact</string>
+
+    <string name="label_facebook">Facebook</string>
+    <string name="label_call">Call Phone</string>
+    <string name="label_gmail">Gmail</string>
+    <string name="label_skype">Skype</string>
+    <string name="label_youtube">Youtube</string>
+    <string name="label_zalo">Zalo</string>
+
+    <string name="feedback_name">Full name (*)</string>
+    <string name="feedback_email">Email</string>
+    <string name="feedback_phone">Phone number</string>
+    <string name="feedback_comment">Comment (*)</string>
+    <string name="send_feedback">Send Feedback</string>
+
+    <string name="play_all">Play all</string>
+    <string name="view_all">View all</string>
+    <string name="music_player">Music Player</string>
+    <string name="views">Views</string>
+    <string name="label_start_time">00:00</string>
+
+    // action
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">Cancel</string>
+
+    // Validate
+    <string name="name_require">Please enter your name</string>
+    <string name="comment_require">Please enter your comment</string>
+
+    // Hint
+    <string name="hint_search_name">Song name…</string>
+
+    // Label
+    <string name="label_artist">Artist:</string>
+
+    // Message
+    <string name="msg_please_waiting">Please wait…</string>
+    <string name="msg_send_feedback_success">Send feedback successfully!</string>
+    <string name="msg_exit_app">Are you sure you want to exit?</string>
+    <string name="msg_get_date_error">General error, please try again later</string>
+</resources>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:layout_marginEnd="-65dp"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/layout_close"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_menu_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/define_dimen_20"
+            android:padding="@dimen/define_dimen_14"
+            android:text="@string/menu_home"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_xnormal" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_menu_all_songs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/define_dimen_14"
+            android:text="@string/menu_all_songs"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_xnormal" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_menu_featured_songs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/define_dimen_14"
+            android:text="@string/menu_featured_songs"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_xnormal" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_menu_popular_songs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/define_dimen_14"
+            android:text="@string/menu_popular_songs"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_xnormal" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_menu_new_songs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/define_dimen_14"
+            android:text="@string/menu_new_songs"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_xnormal" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_menu_feedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/define_dimen_14"
+            android:text="@string/menu_feedback"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_xnormal" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_menu_contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/define_dimen_14"
+            android:text="@string/menu_contact"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_xnormal" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_close"
+        android:layout_width="65dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:background="@color/tran_parent">
+
+        <ImageView
+            android:id="@+id/img_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/define_dimen_5"
+            android:padding="@dimen/define_dimen_12"
+            android:src="@drawable/ic_close_white"
+            tools:ignore="ContentDescription" />
+    </RelativeLayout>
+
+</RelativeLayout>
